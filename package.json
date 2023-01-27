@@ -1,0 +1,30 @@
+{
+  "name": "wcr-ts-template",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.tsx",
+  "dependencies": {
+    "@ui5/webcomponents": "latest",
+    "@ui5/webcomponents-base": "latest",
+    "@ui5/webcomponents-fiori": "latest",
+    "@ui5/webcomponents-react": "latest",
+    "@ui5/webcomponents-react-base": "latest",
+    "@ui5/webcomponents-react-charts": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-scripts": "latest"
+  },
+  "devDependencies": {
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "typescript": "latest"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+}
