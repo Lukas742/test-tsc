@@ -1,4 +1,4 @@
-import { ReactNode, ReactPortal, ReactFragment, ReactChild } from "react";
+import { ReactNode, ReactPortal, ReactFragment, ReactElement } from "react";
 import { MessageStrip, Icon } from "@ui5/webcomponents-react";
 
 type ReducedReactNode = Exclude<
@@ -9,7 +9,8 @@ type ReducedReactNode = Exclude<
 export type UI5WCSlotsNode =
   | ReducedReactNode
   | Iterable<ReducedReactNode>
-  | false;
+  | false
+  | ReactElement;
 
 interface PropTypes {
   someSlot: UI5WCSlotsNode;
